@@ -1,5 +1,5 @@
 An event based api with the crud functionality
-1)Get -> "localhost:8000/api/v3/app/events?type=latest" -> Use this url for getting the user via its type
+1)Get -> "localhost:8000/api/v3/app/events?type=latest -> Use this url for getting the user via its type
 2)Get -> "localhost:8000/api/v3/app/events?id=645a0e695d964208e834a9ea" -> Use this url for fetching the user via its id
 3)Post -> "localhost:8000/api/v3/app/events" -> Use this url for creating the event
 4)Put -> "localhost:8000/api/v3/app/events/645a1465b9e494d2ee9f17b1" -> use this url for updating the event also pass the 'userId' same  id as in params with the json format for authorization while updating the event
